@@ -125,7 +125,7 @@ public class GameFlow : MonoBehaviour
         {
             Time.timeScale = 0.2f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            Invoke(nameof(restart), 2f);
+            Invoke(nameof(restart), 5);
         }
     }
     private void restart()
