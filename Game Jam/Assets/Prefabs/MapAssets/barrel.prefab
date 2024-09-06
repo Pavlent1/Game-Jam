@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9078988ce371148a977b4521d19881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 100
+  pushForce: 50
   explode: {fileID: 7091560573863013988}
 --- !u!50 &1307957811682026898
 Rigidbody2D:

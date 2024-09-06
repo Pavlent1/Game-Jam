@@ -2654,8 +2654,8 @@ MonoBehaviour:
   mag: {fileID: 1043481844}
   animator: {fileID: 1680296374}
   pushPart: {fileID: 440931686}
-  DashCooldown: 0
-  DashForce: 0
+  DashCooldown: 1
+  DashForce: 30
   acceleration: 2
   maxSpeed: 12
   linearDrag: 0.5

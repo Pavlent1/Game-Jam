@@ -123,9 +123,14 @@ public class GameFlow : MonoBehaviour
         }
         else
         {
+            Time.timeScale = 0.2f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Invoke(nameof(restart), 2f);
         }
     }
-
+    private void restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
 }
